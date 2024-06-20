@@ -1,0 +1,33 @@
+#root{
+    background: #0e0000a9 ;
+}
+
+.fondo {
+  background: rgb(52, 0, 0);
+  background: linear-gradient(
+    177deg,
+    rgba(52, 0, 0, 1) 0%,
+    rgba(14, 0, 0, 0.22) 100%
+  );
+}
+
+.fondoLogin{
+  background: rgb(52,0,0);
+  background: linear-gradient(180deg, rgba(52, 0, 0, 70) 50%, rgba(14, 0, 0, 33) 100%);
+  >:nth-child(2){
+    background: #fffbfb03;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 25%);
+    >:nth-child(2) > div{
+      background: #8a111185;
+    }
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+.bg-dash{
+    background-color: #ffffff10;
+}
+
